@@ -7,13 +7,45 @@ Python Course By Alireza Khalilian
       - Python Versions
       - Python Installation
       - Coding Environments
-      - Git
+      - Git and Exercises
       - Print Estatment and "Hello World"
     - Variables, Operations, Input, Primitive Data Types and Flow Controls
-    - Functions and Lambda functions
+    - Functions, Lambda functions and Naming Conventions
     - Files and String Formating
+    - Exercises
 2. Data Structure
+    - Lists and Tuples
+    - Sets and Dictionaries
+    - Conversions
+    - Exercises
 3. Functional Programming
+    - Functional Programming Paradigim
+    - Zip, Map and Filter
+    - Exercises
 4. Object Oriented Programming
-5. Modules and Packages
-6. Tools and Libraries
+    - Classes and Objects
+    - Properties and Access Levels
+    - Methods
+    - Predefined Properties and Overwriting
+    - Operator Overloading
+    - Static Methods
+    - Inheritance
+    - Exercises
+6. Modules and Packages
+    - Modules
+    - Packages
+    - Using Pip Effectively
+    - Packaging your own Code
+    - Python Docs
+    - Exercises
+8. Tools and Libraries
+    - RegEX
+    - Math
+    - Random
+    - HTTP
+    - OS
+    - JSON
+    - Time
+    - Exercises
+9. Graphics
+    - Tkinter
