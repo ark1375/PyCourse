@@ -1,7 +1,12 @@
 # PyCourse
 Python Course By Alireza Khalilian
-
+## Overview
+Overview of the course
 ## Material
+
+### Books
+Contents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.
+### Table of Content
 1. Basics
     - Introduction
       - Python Versions
