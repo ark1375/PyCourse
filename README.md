@@ -3,9 +3,8 @@ Python Course By Alireza Khalilian
 ## Overview
 Overview of the course
 ## Material
-
-### Books
-Contents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.
+The coontents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.  
+It is estimated that these contents take 16 to 20 hours to teach. 
 ### Table of Content
 1. Basics
     - Introduction
@@ -31,9 +30,9 @@ Contents of this course are based on the books __Fluent Python - Luciano Ramalho
     - Classes and Objects
     - Properties and Access Levels
     - Methods
+    - Static Methods
     - Predefined Properties and Overwriting
     - Operator Overloading
-    - Static Methods
     - Inheritance
     - Exercises
 6. Modules and Packages
