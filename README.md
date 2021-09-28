@@ -18,20 +18,24 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - Files
     - String Formating
     - Exercises
+
 2. Pythonic Code
     - Naming Conventions
     - Pythonic Style
     - Better Comments, Lesser Comments
+
 3. Data Structure
     - Lists and Tuples
     - Sets and Dictionaries
     - Conversions
     - Exercises
-3. Functional Programming
+
+4. Functional Programming
     - Functional Programming Paradigim
     - Zip, Map and Filter
     - Exercises
-4. Object Oriented Programming
+
+5. Object Oriented Programming
     - Classes and Objects
     - Properties and Access Levels
     - Methods
@@ -40,6 +44,7 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - Operator Overloading
     - Inheritance
     - Exercises
+
 6. Modules and Packages
     - Modules
     - Packages
@@ -47,7 +52,8 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - Packaging your own Code
     - Python Docs
     - Exercises
-8. Tools and Libraries
+
+7. Tools and Libraries
     - RegEX
     - Math
     - Random
@@ -56,5 +62,6 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - JSON
     - Time
     - Exercises
-9. ~~_Graphics_~~
+
+8. ~~_Graphics_~~
     - ~~Tkinter~~
