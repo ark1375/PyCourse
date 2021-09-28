@@ -1,5 +1,5 @@
 # PyCourse
-Python Course By Alireza Khalilian
+Python: One Step Further Course By Alireza Khalilian
 ## Overview
 Overview of the course
 ## Contents
