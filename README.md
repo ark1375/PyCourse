@@ -8,6 +8,8 @@ This course is preapared for those who want to learn more about python and it's 
 The main intention of this course is to give you a better intuition about python, how to better use it, write it and apply it.  
 > ⚠️ __Having prior basic knowledge about python is _mandetory___.  
 > However, at the beginning of the course, we review the basics of python to refresh your memory on the subject.  
+
+&nbsp;  
 ### Course Road Map
 > :black_nib: The full details of the contents are available [here](#contents).  
 
@@ -18,8 +20,17 @@ After that we will start the ___Programming paradigims___, First, _functional pr
 Later, we learn how ___packages and modules___ are handled in python.  
 And in the end, we learn some of the most important ___built in modules of python___.
 
-> :triangular_flag_on_post: We intended to cover the python's built in GUI (called Tkinter) as well. However because of the time limitations at hand, for the time beign, it is removed from the contetns. 
+> We intended to cover the python's built in GUI (called Tkinter) as well. However because of the time limitations at hand, it is removed from the contetns. 
+&nbsp;  
 
+### Discussions and Issues  
+Student's are free to use the __Issues__ section of the repository to ask questions and start disccusions. 
+### Exercises
+After the end of each topic, an __Exercise__ will be given to students. The details of these exercises are uploaded to this github repository. Each student will have a seperate branch to work on. The deadline of each exercise is determined by it's difficulity. It is worth to note that any commit to your branch after the specified deadline is not accaptable.  
+### Notes
+At the end of each week, the respective notes will be uploaded to this document. You can use these notes to review the lessons and solve the exercises. Feel free to explore them, review and update them. 
+&nbsp;  
+If you have any further question, feel free to contact me via telegram or email.
 ## Contents
 The contents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.  
 It is estimated that these contents take 16 to 20 hours to complete. 
