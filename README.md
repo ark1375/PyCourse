@@ -1,6 +1,5 @@
-# :snake: Python :: One Step Further
-:snake: Python :: One Step Further.  
-A Course for those who want to take things one step further in python.
+# :snake: Python: One Step Further 
+Take things one step further in python.
 ## Overview
 Overview of the course
 ## Contents
