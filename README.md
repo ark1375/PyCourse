@@ -2,7 +2,7 @@
 Take things one step further in python.  
 Instructed by Alireza Khalilian.
 ## Overview
-:tada: __Welcome to PyCourse__ :tada:  
+:snake: __Welcome to PyCourse, One Step Further__  
 
 This course is preapared for those who want to learn more about python and it's capablities.  
 The main intention of this course is to give you a better intuition about python, how to better use it, write it and apply it.  
