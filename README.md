@@ -23,7 +23,7 @@ And in the end, we learn some of the most important ___built in modules of pytho
 &nbsp;  
 
 ### Discussions and Issues  
-Student's are free to use the __Issues__ section of the repository to ask questions and start disccusions.  
+Student's are free to use the __Issues__ and __Discussion__ section of the repository to ask questions and start disccusions.  
 
 ### Exercises
 After the end of each topic, an __Exercise__ will be given to students. The details of these exercises are uploaded to this github repository. Each student will have a seperate branch to work on. The deadline of each exercise is determined by it's difficulity. It is worth to note that any commit to your branch after the specified deadline is not accaptable.  
