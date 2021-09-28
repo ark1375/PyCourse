@@ -2,9 +2,9 @@
 Python Course By Alireza Khalilian
 ## Overview
 Overview of the course
-## Material
-The coontents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.  
-It is estimated that these contents take 16 to 20 hours to teach. 
+## Contents
+The contents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.  
+It is estimated that these contents take 16 to 20 hours to complete. 
 ### Table of Content
 1. Basics
     - Introduction
@@ -15,7 +15,8 @@ It is estimated that these contents take 16 to 20 hours to teach.
       - Print Estatment and "Hello World"
     - Variables, Operations, Input, Primitive Data Types and Flow Controls
     - Functions, Lambda functions and Naming Conventions
-    - Files and String Formating
+    - Files
+    - String Formating
     - Exercises
 2. Data Structure
     - Lists and Tuples
