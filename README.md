@@ -1,5 +1,5 @@
 # PyCourse
-:snake: __Python :: One Step Further__.
+:snake: __Python :: One Step Further__.  
 A Course for those who want to take things one step further in python.
 ## Overview
 Overview of the course
