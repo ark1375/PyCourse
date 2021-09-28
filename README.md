@@ -1,5 +1,6 @@
 # PyCourse
-__Python__: _One Step Further_
+:snake: __Python :: One Step Further__.
+A Course for those who want to take things one step further in python.
 ## Overview
 Overview of the course
 ## Contents
@@ -14,11 +15,15 @@ It is estimated that these contents take 16 to 20 hours to complete.
       - Git and Exercises
       - Print Estatment and "Hello World"
     - Variables, Operations, Input, Primitive Data Types and Flow Controls
-    - Functions, Lambda functions and Naming Conventions
+    - Functions, Lambda functions
     - Files
     - String Formating
     - Exercises
-2. Data Structure
+2. Pythonic Code
+    - Naming Conventions
+    - Pythonic Style
+    - Better Comments, Lesser Comments
+3. Data Structure
     - Lists and Tuples
     - Sets and Dictionaries
     - Conversions
