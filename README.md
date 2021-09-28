@@ -52,5 +52,5 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - JSON
     - Time
     - Exercises
-9. Graphics
-    - Tkinter
+9. ~~_Graphics_~~
+    ~~- Tkinter~~
