@@ -12,9 +12,13 @@ The main intention of this course is to give you a better intuition about python
 > :black_nib: The full details of the contents are available [here](#contents).  
 
 At the begining of the course, ___we review the basic topics of python___ such as variables, operations, primitive data types and etc.  
-Second section is a dive into the ___Python's data structure___.
+Second section is a dive into the ___Python's data structure___.  
 Then we will take a look at ___how to write python codes correctly___. That means the way most programmers do and the way that it is intended to be written.  
-After that we will start the ___Programming paradigims___, First, functional programming, and later object oriented programming in python. We'll also spend some time reviewing other ways to write python code.
+After that we will start the ___Programming paradigims___, First, _functional programming_, and later _object oriented programming_ in python. We'll also spend some time exploring other ways to write python code.  
+Later, we learn how ___packages and modules___ are handled in python.  
+And in the end, we learn some of the most important ___built in modules of python___.
+
+> :triangular_flag_on_post: We intended to cover the python's built in GUI (called Tkinter) as well. However because of the time limitations at hand, for the time beign, it is removed from the contetns. 
 
 ## Contents
 The contents of this course are based on the books __Fluent Python - Luciano Ramalho__ and __Automate the Boring Stuff with Python - Al Sweigart__.  
@@ -79,5 +83,5 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - Time
     - Exercises
 
-9. ~~_Graphics_~~
-    - ~~Tkinter~~
+9. ~~GUI~~
+
