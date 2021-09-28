@@ -1,5 +1,5 @@
 # PyCourse
-Python: One Step Further Course By Alireza Khalilian
+__Python__: _One Step Further_
 ## Overview
 Overview of the course
 ## Contents
@@ -53,4 +53,4 @@ It is estimated that these contents take 16 to 20 hours to complete.
     - Time
     - Exercises
 9. ~~_Graphics_~~
-    ~~- Tkinter~~
+    - ~~Tkinter~~
