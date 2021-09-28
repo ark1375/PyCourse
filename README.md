@@ -1,5 +1,5 @@
 # :snake: Python: One Step Further 
-Take things one step further in python.  
+One step further in python.  
 Instructed by Alireza Khalilian.
 ## Overview
 :snake: __Welcome to PyCourse, One Step Further__  
