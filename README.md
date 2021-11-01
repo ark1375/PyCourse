@@ -131,3 +131,8 @@ It is estimated that these contents take 16 to 20 hours to complete.
 
 [1]: https://github.com/ark1375/PyCourse/issues
 [2]: https://github.com/ark1375/PyCourse/discussions
+
+
+## Notes
+
+This is a test from linux
