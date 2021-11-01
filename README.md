@@ -124,6 +124,31 @@ It is estimated that these contents take 16 to 20 hours to complete.
 
 9. ~~GUI and Graphics~~
 
+## Notes
+
+### Second Session
+
+#### Git Hints
+
+- You can use `git clone 'repository link'` to clone a repository in your computer.
+- You can use `git pull origin master` to update your repository from github.
+
+#### XOR Cipher
+
+XOR Cipher is one of the most famous cipher algorithm to encrypt your data. It is simple, fast and easy.  
+The algorithm is simple:  
+
+1. Having a key __KEY__ and a string __STRING__:
+2. For every character,  __CHAR__ in __STRING__:  
+Perform the XOR operation on __KEY__ and __CHAR__ and save the result into another string __NEW_STRING__.
+3. End the Algorithm.
+
+Interesting thing about the XOR Cipher is that if you pereform the cipher using the same key on the _Encrypted_ string, you get the starting string __STRING__.  
+  
+Two main functions we used in the `2. xor-cipher.py` are `ord()` for converting a single string to ascii and `chr()` for converting an ascii code to string.  
+For more information see the [Wikipedia Page](https://en.wikipedia.org/wiki/XOR_cipher) on XOR Cipher. Aslo for more on ASCII table, refer [here](https://en.wikipedia.org/wiki/ASCII).
+
+
 
 
 
@@ -131,8 +156,3 @@ It is estimated that these contents take 16 to 20 hours to complete.
 
 [1]: https://github.com/ark1375/PyCourse/issues
 [2]: https://github.com/ark1375/PyCourse/discussions
-
-
-## Notes
-
-This is a test from linux
