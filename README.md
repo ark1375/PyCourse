@@ -149,6 +149,22 @@ Two main functions we used in the `2. xor-cipher.py` are `ord()` for converting 
 For more information see the [Wikipedia Page](https://en.wikipedia.org/wiki/XOR_cipher) on XOR Cipher. Aslo for more on ASCII table, refer [here](https://en.wikipedia.org/wiki/ASCII).
 
 
+### Third Session
+
+#### Primitive Data Types
+
+There are four primitive datatypes in python. However it can be extended to more than xxxx.
+
+- __Integer__: Integer numbers in python. Recognized by `class int`. You can convert other _permiited_ data types to integer using `int()` function.
+- __Float__: Numbers with decimal points in python. Recognized by `class float`. You can convert other _permiited_ data types to float using `float()` function.
+- __String__: Character String in python. One of the mose used data types. Recognized by `class str`. You can convert other _permiited_ data types to string using `str()` function.  
+Remember that `ord()` was for converting a single length string to ascii code and `chr()` for converting ascii code back to string.
+- __Boolean__: Boolean data type is used in python for determining binary situations. It's either `True` or `False`. You can convert other _permiited_ data types to string using `bool()` function.  
+Remember that `ord()` was for converting a single length string to ascii code and `chr()` for converting ascii code back to string.  
+:thinking: Any positive or negative number converted to boolean using `bool()` will yield `True` with exception of __0__ whichi results in `False`.
+ 
+
+
 
 
 
