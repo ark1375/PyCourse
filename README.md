@@ -153,7 +153,7 @@ For more information see the [Wikipedia Page](https://en.wikipedia.org/wiki/XOR_
 
 #### Primitive Data Types
 
-There are four primitive datatypes in python. However it can be extended to more than xxxx.
+There are four primitive datatypes in python. However it can be extended to more than ten types.
 
 - __Integer__: Integer numbers in python. Recognized by `class int`. You can convert other _permiited_ data types to integer using `int()` function.
 - __Float__: Numbers with decimal points in python. Recognized by `class float`. You can convert other _permiited_ data types to float using `float()` function.
@@ -161,14 +161,42 @@ There are four primitive datatypes in python. However it can be extended to more
 Remember that `ord()` was for converting a single length string to ascii code and `chr()` for converting ascii code back to string.
 - __Boolean__: Boolean data type is used in python for determining binary situations. It's either `True` or `False`. You can convert other _permiited_ data types to string using `bool()` function.  
 Remember that `ord()` was for converting a single length string to ascii code and `chr()` for converting ascii code back to string.  
-:thinking: Any positive or negative number converted to boolean using `bool()` will yield `True` with exception of __0__ whichi results in `False`.
- 
 
+    > :hotsprings: Any positive or negative number converted to boolean using `bool()` will yield `True` with exception of __0__ which results in `False`.
 
+__Other default types in python:__
 
+- __Object__: Backbone of every object in python.
+- __Function__: Type of every function in python.
+- __Complex__: Default type of Complex Numbers.
+- __List__: Manifastation of Arrays.
+- __Set__: Another array like type which simulates Sets in math.
+- __Dictionary__: Equivalent of Map in Java, C and C++. This datatypes is roughly speaking related to JSONS in JavaScript.
+- __Tuple__: An unextandable datatype like list.
 
+### Flow Controls
 
+There are thre type of flow control in python.
 
+1. __if, elif and else__
+2. __for, while__
+3. __match__: Roughly speaking, it is equivalent to `switch` statement in C and Java.
+
+### Functions and Default Arguments
+
+Functions can be defined in python using the `def` keyword. Every function has it's own scope though they can access variables and functions in the upper scopes.  
+#### Default Arguments
+
+When defining a function, you can use the assign operator `=` to set a default value for an argument: `def someFunction(arg = default)`. When calling the function, if this arguments is not passed to the function, the code will use the arguments default value.  
+
+```python
+def someFunction(arg = default):
+    pass
+
+someFunction(arg) # --> Valid <--
+someFunction() # --> Also Valid <--
+```
+#### 
 
 [1]: https://github.com/ark1375/PyCourse/issues
 [2]: https://github.com/ark1375/PyCourse/discussions
