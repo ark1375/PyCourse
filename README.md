@@ -185,7 +185,7 @@ There are thre type of flow control in python.
 ### Functions and Default Arguments
 
 Functions can be defined in python using the `def` keyword. Every function has it's own scope though they can access variables and functions in the upper scopes.  
-#### Default Arguments
+#### Default Parameters Value
 
 When defining a function, you can use the assign operator `=` to set a default value for an argument: `def someFunction(arg = default)`. When calling the function, if this arguments is not passed to the function, the code will use the arguments default value.  
 
@@ -196,7 +196,35 @@ def someFunction(arg = default):
 someFunction(arg) # --> Valid <--
 someFunction() # --> Also Valid <--
 ```
-#### 
+
+#### Function Arguments
+
+In total there are two types of Arguments:
+-__Positional Arguments__: The triditional method of passing the arguments to a function. Positioning each variable at the right spot.
+```python
+
+def myFunction(arg1 , arg2):
+    pass
+
+var1 = 'some values'
+var2 = 'some values 2'
+
+myFunction(var1 , var2)
+```
+
+-__Keyword Arguments__: The new way of passing arguments to the functions, using the arguments by their names.
+```python
+
+def myFunction(arg1 , arg2):
+    pass
+
+var1 = 'some values'
+var2 = 'some values 2'
+
+myFunction(arg1 = var1 , arg2 = var2)
+```
+
+
 
 [1]: https://github.com/ark1375/PyCourse/issues
 [2]: https://github.com/ark1375/PyCourse/discussions
