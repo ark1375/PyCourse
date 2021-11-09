@@ -224,6 +224,21 @@ var2 = 'some values 2'
 myFunction(arg1 = var1 , arg2 = var2)
 ```
 
+### Fourth Session
+
+#### Lambda Functions
+
+Lambda functions are mostly handy when using _map_ and _filter_. They are defined in one and only one line.  
+From a technical point of view, lambda functions are exactly same as functions. Both are recognized by type `<class function>`.
+##### Defining
+
+It is defined using `lambda` keyword following by the arguments and the operation.
+
+```python
+myFunction = lambda arg1, arg2 : ('Operation of the function')
+```
+##### 
+
 
 
 [1]: https://github.com/ark1375/PyCourse/issues
