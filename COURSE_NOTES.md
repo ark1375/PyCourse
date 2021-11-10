@@ -1,11 +1,15 @@
-### Second Session
+# Notes
 
-#### Git Hints
+Course Notes
+
+## Second Session
+
+### Git Hints
 
 - You can use `git clone 'repository link'` to clone a repository in your computer.
 - You can use `git pull origin master` to update your repository from github.
 
-#### XOR Cipher
+### XOR Cipher
 
 XOR Cipher is one of the most famous cipher algorithm to encrypt your data. It is simple, fast and easy.  
 The algorithm is simple:  
@@ -21,9 +25,9 @@ Two main functions we used in the `2. xor-cipher.py` are `ord()` for converting 
 For more information see the [Wikipedia Page](https://en.wikipedia.org/wiki/XOR_cipher) on XOR Cipher. Aslo for more on ASCII table, refer [here](https://en.wikipedia.org/wiki/ASCII).
 
 
-### Third Session
+## Third Session
 
-#### Primitive Data Types
+### Primitive Data Types
 
 There are four primitive datatypes in python. However it can be extended to more than ten types.
 
@@ -56,8 +60,9 @@ There are thre type of flow control in python.
 
 ### Functions and Default Arguments
 
-Functions can be defined in python using the `def` keyword. Every function has it's own scope though they can access variables and functions in the upper scopes.  
-#### Default Parameters Value
+Functions can be defined in python using the `def` keyword. Every function has it's own scope though they can access variables and functions in the upper scopes.
+
+### Default Parameters Value
 
 When defining a function, you can use the assign operator `=` to set a default value for an argument: `def someFunction(arg = default)`. When calling the function, if this arguments is not passed to the function, the code will use the arguments default value.  
 
@@ -69,7 +74,7 @@ someFunction(arg) # --> Valid <--
 someFunction() # --> Also Valid <--
 ```
 
-#### Function Arguments
+### Function Arguments
 
 In total there are two types of Arguments:
 -__Positional Arguments__: The triditional method of passing the arguments to a function. Positioning each variable at the right spot.
@@ -96,18 +101,140 @@ var2 = 'some values 2'
 myFunction(arg1 = var1 , arg2 = var2)
 ```
 
-### Fourth Session
+## Fourth Session
 
-#### Lambda Functions
+### Lambda Functions
 
 Lambda functions are mostly handy when using _map_ and _filter_. They are defined in one and only one line.  
 From a technical point of view, lambda functions are exactly same as functions. Both are recognized by type `<class function>`.
 
-__Defining__:  
+#### Defining  
 
 It is defined using `lambda` keyword following by the arguments and the operation.
 
 ```python
 myFunction = lambda arg1, arg2 : ('Operation of the function')
+```  
+
+Functions are a type of special object in python so they have object-like behaviours. For example you can assign them to variables as you could do with lambda functions.
+```python
+def myFunction(args = 'default values'):
+    pass
+
+func_copy = myFunction()
 ```
-##### 
+
+Beside, you can define functions even inside other functions:
+```python
+def myFirstFunc():
+    def mySecondFunc():
+        def myThirdFunc():
+            pass
+## VALID
+```
+### Function Generators
+
+Basically speaking, a _function generator_ is a very special type of function that generates (returns) another specialized function.  
+The returned function can be:
+- Lambda Function
+- Normal Python Function
+
+```python
+## Function Generator Using lambda Functions
+def myFuncGenerator():
+    return lambda: print("function generator")
+
+generated = myFuncGenerator() ## Creating a function using function generator
+generated()  ## Calling the generated function
+```
+
+```python
+## Function Generator Using normal Functions
+def myFuncGenerator():
+    def generatedFunction()
+        print("function generator")
+
+    return generatedFunction
+
+generated = myFuncGenerator() ## Creating a function using function generator
+generated()  ## Calling the generated function
+```
+
+Usually, we pass a special argument to the function generator and it uses this argument to create a customized function (Refer to exampe 4).  
+
+## Special Content No.1
+
+### Naming Conventions
+
+There are 7 major conventions for naming variables, functions, classes and modules that programmers use. Keep in mind that there are more, however they are less common.
+
+#### flatcase
+
+Write everything in __lower case without any seperation__.  
+
+```python
+myvariable = 'My Variable'
+```
+
+Programmers usually dont use this convention because it is difficult to work with and specially hard to read.
+
+#### camelCase
+
+*First letter of the name is writen in __lower case__* and *the rest of the words are begin with __upper case letter__* .
+
+```python
+myVariable = 'My Variable'
+```
+
+For nameing __variables__ and __functions__.
+
+#### PascalCase
+
+All the words begin with __upper case__ letters.
+
+```python
+myVariable = 'My Variable'
+```
+
+For nameing __Modules__, __Packages__ and __Classes__.
+
+#### snake_case
+
+All words are written in __lower case__ but seperated with __underline__.
+
+```python
+my_variable = 'My Variable'
+```
+
+For nameing __variables__ and __functions__.
+
+#### camel_Snake_Case
+
+The first letter of the first word is written in __lower case__ and the rest begin with __upper case__. Also the words are seperated with __underline__.
+
+```python
+my_Variable = 'My Variable'
+```
+
+For nameing __variables__ and __functions__ (less common as programes usually use *snake_case* instead).
+
+#### Pascal_Snake_Case
+
+All words start with __upper case__. Again, the words are seperated with __underline__.
+
+```python
+My_Variable = 'My Variable'
+```
+
+For nameing __Modules__, __Packages__ and __Classes__.(less common).
+
+#### SCREAMING_SNAKE_CASE
+
+All words are written in __caps__ and seperated with __underline__.
+```python
+MY_VARIABLE = 'My Variable'
+```
+This is a verry common and special covention mostly used in C, C++ and Java for naming __constants__ and __pre processor constants__ in C.  
+
+
+
