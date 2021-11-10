@@ -162,13 +162,11 @@ generated()  ## Calling the generated function
 
 Usually, we pass a special argument to the function generator and it uses this argument to create a customized function (Refer to exampe 4).  
 
-## Special Content No.1
-
-### Naming Conventions
+## Special Content No.1 - Naming Conventions
 
 There are 7 major conventions for naming variables, functions, classes and modules that programmers use. Keep in mind that there are more, however they are less common.
 
-#### flatcase
+### flatcase
 
 Write everything in __lower case without any seperation__.  
 
@@ -178,7 +176,7 @@ myvariable = 'My Variable'
 
 Programmers usually dont use this convention because it is difficult to work with and specially hard to read.
 
-#### camelCase
+### camelCase
 
 *First letter of the name is writen in __lower case__* and *the rest of the words are begin with __upper case letter__* .
 
@@ -188,7 +186,7 @@ myVariable = 'My Variable'
 
 For nameing __variables__ and __functions__.
 
-#### PascalCase
+### PascalCase
 
 All the words begin with __upper case__ letters.
 
@@ -198,7 +196,7 @@ myVariable = 'My Variable'
 
 For nameing __Modules__, __Packages__ and __Classes__.
 
-#### snake_case
+### snake_case
 
 All words are written in __lower case__ but seperated with __underline__.
 
@@ -208,7 +206,7 @@ my_variable = 'My Variable'
 
 For nameing __variables__ and __functions__.
 
-#### camel_Snake_Case
+### camel_Snake_Case
 
 The first letter of the first word is written in __lower case__ and the rest begin with __upper case__. Also the words are seperated with __underline__.
 
@@ -218,7 +216,7 @@ my_Variable = 'My Variable'
 
 For nameing __variables__ and __functions__ (less common as programes usually use *snake_case* instead).
 
-#### Pascal_Snake_Case
+### Pascal_Snake_Case
 
 All words start with __upper case__. Again, the words are seperated with __underline__.
 
@@ -228,7 +226,7 @@ My_Variable = 'My Variable'
 
 For nameing __Modules__, __Packages__ and __Classes__.(less common).
 
-#### SCREAMING_SNAKE_CASE
+### SCREAMING_SNAKE_CASE
 
 All words are written in __caps__ and seperated with __underline__.
 ```python
